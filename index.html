@@ -3,80 +3,140 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Epicuria</title>
-    <link rel="stylesheet" href="dist/styles/main.scss/styles.css">
+    <title>Accueil - Epicuria</title>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kensington&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="dist/styles/main.scss/styles.css">
 </head>
 <body>
     <header>
-        <div class="menu">
-            <img src="dist/images/page accueil/logo.svg" alt="logo">
-        </div>
-        <div class="hero">
-            <div class="carousel">
-                <!-- Carrousel de photos -->
-                <img src="dist/images/page accueil/image_hero1.webp" alt="Image 1">
-                <img src="dist/images/page accueil/image_hero2.webp" alt="Image 2">
-                <img src="dist/images/page accueil/image_hero_3.webp" alt="Image 3">
-                <div class="dots">
-                    <span class="dot" data-index="0"></span>
-                    <span class="dot" data-index="1"></span>
-                    <span class="dot" data-index="2"></span>
+        <nav>
+            <div class="logo">
+                <img src="dist/images/page accueil/logo.svg" alt="Logo">
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="slider">
+                <div class="slide active">
+                    <img src="dist/images/page accueil/image_hero1.webp" alt="Image 1">
+                </div>
+                <div class="slide">
+                    <img src="dist/images/page accueil/image_hero2.webp" alt="Image 2">
+                </div>
+                <div class="slide">
+                    <img src="dist/images/page accueil/image_hero_3.webp" alt="Image 3">
                 </div>
             </div>
-            
             <div class="hero-content">
                 <h1>Cuisinez Local, Savourez Mieux</h1>
                 <p>Des recettes personnalisées avec des produits locaux. Posez-nous n'importe quelle question culinaire !</p>
-                    <div class="input">
-                        <img src="dist/images/page accueil/ai.svg" alt="Ai">
-                        <input type="text" placeholder="Trouve-moi des idées de recettes pour la semaine">
-                        <img src="dist/images/page accueil/micro.svg" alt="Micro">
+                <div class="search-bar">
+                    <div class="ai">
+                        <img src="dist/images/page accueil/ai.svg" alt="ai">
                     </div>
+                    <input type="text" placeholder="Trouve moi des idées de recettes pour la semaine.">
+                    <div class="micro">
+                        <img src="dist/images/page accueil/micro.svg" alt="micro">
+                    </div>
+                </div>
             </div>
-        </div>
-    </header>
-    <section class="recipes">
-        <h2>Trouvez des recettes adaptées à vos préférences alimentaires.</h2>
-        <div class="recipe-cards">
-            <!-- Cartes de recettes -->
-        </div>
-    </section>
-    <section class="producers">
-        <h2>Découvrez les meilleurs produits locaux près de chez vous.</h2>
-        <div class="producer-cards">
-            <!-- Cartes de producteurs -->
-        </div>
-    </section>
-    <section class="ai-guide">
-        <h2>L'IA vous guide dans la réalisation de vos recettes, étape par étape.</h2>
-        <div class="ai-images">
-            <!-- Images de l'IA en action -->
-        </div>
-    </section>
-    <section class="meal-planning">
-        <h2>Planifiez vos repas et générez facilement votre liste de courses.</h2>
-        <div class="planning-image">
-            <!-- Image de planification de repas -->
-        </div>
-    </section>
+            <div class="slider-navigation">
+                <div class="nav-dot active" data-slide="0"></div>
+                <div class="nav-dot" data-slide="1"></div>
+                <div class="nav-dot" data-slide="2"></div>
+            </div>
+        </section>
+        <section class="recettes">
+            <h2>Trouvez des recettes adaptées à vos préférences alimentaires.</h2>
+            <div class="underline">
+                <img src="dist/images/page accueil/soulignement1.svg" alt="underline1">
+            </div>
+            <div class="recettes-slider">
+                <div class="recette"><img src="dist/images/page accueil/pates3.webp" alt="Recette 1"></div>
+                <div class="recette"><img src="dist/images/page accueil/salade2.webp" alt="Recette 2"></div>
+                <div class="recette"><img src="dist/images/page accueil/poisson.webp" alt="Recette 3"></div>
+                <div class="recette"><img src="dist/images/page accueil/boeuf.webp" alt="Recette 4"></div>
+                <div class="recette"><img src="dist/images/page accueil/soupe1.webp" alt="Recette 5"></div>
+                <div class="recette"><img src="dist/images/page accueil/brownie.webp" alt="Recette 6"></div>
+                <div class="recette"><img src="dist/images/page accueil/burger.webp" alt="Recette 7"></div>
+                <div class="recette"><img src="dist/images/page accueil/brioche.webp" alt="Recette 8"></div>
+            </div>
+            <div class="slider-controls">
+                <div class="arrow-left"><img src="dist/images/page accueil/arrow_left.svg" alt="flèche gauche"></div>
+                <div class="arrow-right"><img src="dist/images/page accueil/arrow_right.svg" alt="flèche droite"></div>
+            </div>
+        </section>
+        <section class="produits-locaux">
+            <h2>Découvrez les meilleurs produits locaux près de chez vous.</h2>
+            <div class="underline">
+                <img src="dist/images/page accueil/soulignement2.svg" alt="underline2">
+            </div>
+            <div class="farmers-wrapper">
+                <div class="farmers">
+                    <div class="farmer">
+                        <img src="dist/images/page accueil/farmer2.webp" alt="Farmer 1">
+                    </div>
+                    <div class="farmer">
+                        <img src="dist/images/page accueil/farmer9.webp" alt="Farmer 2">
+                    </div>
+                    <div class="farmer">
+                        <img src="dist/images/page accueil/farmer1.webp" alt="Farmer 3">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="ia">
+            <div class="ia-content">
+                <img src="dist/images/page accueil/cook_person.webp" alt="IA">
+                <h2>L'IA vous guide dans la réalisation de vos recettes, étape par étape.</h2>
+                <div class="underline">
+                    <img src="dist/images/page accueil/soulignement1.svg" alt="underline3">
+                </div>
+            </div>
+        </section>
+        <section class="planification">
+            <div class="planification-content">
+                <img src="dist/images/page accueil/cook_person2.webp" alt="Planification">
+                <div class="content">
+                    <div class="underline">
+                        <img src="dist/images/page accueil/soulignement3.svg" alt="underline3">
+                    </div>
+                    <h2>Planifiez vos repas et gérez facilement votre liste de courses.</h2>
+                </div>
+            </div>
+        </section>
+        <section class="inscription">
+            <h2>Rejoignez Epicuria et révolutionnez votre cuisine.</h2>
+            <div class="underline">
+                <img src="dist/images/page accueil/soulignement1.svg" alt="underline1">
+            </div>
+            <button>S'inscrire</button>
+        </section>
+    </main>
     <footer>
-        <p>Rejoignez Epicuria et révolutionnez votre cuisine.</p>
-        <button>S'inscrire</button>
-        <div class="footer-links">
-            <a href="#">À propos</a>
-            <a href="#">Contact</a>
-            <a href="#">Politique de confidentialité</a>
-            <a href="#">Conditions d'utilisation</a>
-            <a href="#">FAQ</a>
-            <div class="social-media">
-                <a href="#">Facebook</a>
-                <a href="#">Instagram</a>
-                <a href="#">YouTube</a>
-                <a href="#">TikTok</a>
+        <div class="footer-content">
+            <div class="logo">
+                <img src="dist/images/page accueil/logo.svg" alt="Logo">
+            </div>
+            <div class="footer-info">
+                <div class="column">
+                    <a href="#">À propos</a>
+                    <a href="#">Contact</a>
+                    <a href="#">Politique de confidentialité</a>
+                    <a href="#">Conditions d'utilisation</a>
+                    <a href="#">FAQ</a>
+                </div>
+                <div class="social-media column">
+                    <a href="#">Facebook</a>
+                    <a href="#">Instagram</a>
+                    <a href="#">YouTube</a>
+                    <a href="#">TikTok</a>
+                </div>
             </div>
         </div>
     </footer>
-    <script src="dist/script/script.js"></script>
+    <script src="dist/scripts/scripts.js"></script>
 </body>
 </html>
