@@ -1,0 +1,28 @@
+header {
+  background-color: $bg-color;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .logo {
+    img {
+      height: 50px;
+    }
+  }
+
+  .nav-right {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+
+    span {
+      font-size: 1.2rem;
+    }
+
+    img {
+      height: 40px;
+      border-radius: 50%;
+    }
+  }
+}

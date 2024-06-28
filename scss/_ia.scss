@@ -1,0 +1,30 @@
+.ia {
+    .ia-content {
+      position: relative;
+      width: 100%;
+      height: 828px;
+  
+      img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          border-radius: 20px;
+      }
+  
+      h2 {
+        position: absolute;
+        top: 50%;
+        left: 70px;
+        transform: translateY(-50%);
+        color: $tertiary-color;
+        width: 379px;
+        font-size: 48px;
+        font-family: $font-family-titles;
+        text-align: left;
+      }
+      .underline {
+          width: 65px;
+          height: 3px;
+        }
+    }
+  }

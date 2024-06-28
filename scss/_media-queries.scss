@@ -1,0 +1,51 @@
+// Media Queries
+@media (max-width: 768px) {
+    .hero-content {
+      h1 {
+        font-size: 48px;
+      }
+  
+      p {
+        font-size: 16px;
+      }
+    }
+  
+    .recettes-slider {
+      .recette {
+        flex: 0 0 200px;
+        height: 300px;
+      }
+    }
+  
+    .planification-content {
+      flex-direction: column;
+  
+      img {
+        width: 100%;
+        margin: 0;
+      }
+  
+      .content {
+        text-align: center;
+  
+        h2 {
+          margin: 0;
+        }
+      }
+    }
+  
+    footer {
+      flex-direction: column;
+  
+      .footer-content {
+        flex-direction: column;
+        align-items: center;
+      }
+  
+      .footer-info {
+        justify-content: center;
+        text-align: center;
+      }
+    }
+  }
+  
