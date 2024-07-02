@@ -8,7 +8,7 @@
       {
         "format": "expanded",
         "extensionName": ".css",
-        "savePath": "/dist/styles/main.scss"
+        "savePath": "/dist/styles"
       }
     ]
   }

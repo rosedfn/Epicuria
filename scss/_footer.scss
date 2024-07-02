@@ -1,40 +1,35 @@
 footer {
-    background: url('dist/images/page accueil/degrade_footer.svg') no-repeat center center;
-    background-size: cover;
-    padding: 2rem;
-    display: flex;
-    align-items: center;
-  
-    .footer-content {
-      display: flex;
-      width: 100%;
-      max-width: $max-width;
-      margin: 0 auto;
-  
-      .logo {
-        width: 262px;
-        height: 179.531px;
-  
-        img {
-          max-width: 100%;
-          height: auto;
-        }
-      }
-  
-      .footer-info {
-        display: flex;
-        width: 100%;
-        max-width: 800px;
-        text-align: left;
-        color: #F4EDDC;
-  
-        .column {
-          display: flex;
-          flex-direction: column;
-          gap: 27px;
-          margin-left: 120px;
-          margin-bottom: 100px;
-        }
-      }
-    }
-  }
+  background: url("dist/images/page accueil/degrade_footer.svg") no-repeat center center;
+  background-size: cover;
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+}
+footer .footer-content {
+  display: flex;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+footer .footer-content .logo {
+  width: 262px;
+  height: 179.531px;
+}
+footer .footer-content .logo img {
+  max-width: 100%;
+  height: auto;
+}
+footer .footer-content .footer-info {
+  display: flex;
+  width: 100%;
+  max-width: 800px;
+  text-align: left;
+  color: #F4EDDC;
+}
+footer .footer-content .footer-info .column {
+  display: flex;
+  flex-direction: column;
+  gap: 27px;
+  margin-left: 120px;
+  margin-bottom: 100px;
+}

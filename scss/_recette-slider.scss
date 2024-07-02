@@ -1,0 +1,121 @@
+.recipe-container {
+    display: flex;
+    padding: 2rem;
+    justify-content: center;
+    gap: 2rem;
+    margin: 0 130px;
+}
+
+.recipe-content {
+    flex: 1;
+    max-width: 50%;
+}
+
+.recipe-content .step {
+    display: none;
+}
+
+.recipe-content .step.active {
+    display: block;
+}
+
+.recipe-content h2 {
+    font-family: var(--font-family-titles);
+    font-size: 3rem;
+}
+
+.recipe-content p {
+    margin: 1rem 0;
+    font-size: 1.25rem;
+}
+
+.recipe-content .ingredients {
+    display: flex;
+    gap: 1rem;
+    margin: 1rem 0;
+}
+
+.recipe-content .ingredients img {
+    width: 80px;
+    height: 80px;
+}
+
+.recipe-slider {
+    flex: 1;
+    max-width: 50%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.video-mask {
+    width: 554px;
+    height: 496px;
+    overflow: hidden;
+}
+
+.video-mask video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.recipe-slider .slider-pagination {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    right: -40px;
+    transform: translateY(-50%);
+    gap: 1rem;
+}
+
+.recipe-slider .slider-pagination .page {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.197);
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    color:#F4EDDC;
+}
+
+.recipe-slider .slider-pagination .page.active {
+    background-color: var(--primary-color);
+}
+
+.finish-button {
+    display: none;
+    position: absolute;
+    bottom: -50px;
+    right: 0;
+    padding: 0.5rem 1rem;
+    background-color: var(--primary-color);
+    border: none;
+    border-radius: 5px;
+    color: var(--secondary-color);
+    cursor: pointer;
+}
+
+.recipe-slider .finish-button.active {
+    display: block;
+}
+
+.help-button {
+    position: fixed;
+    bottom: 120px;
+    left: 70px;
+    padding: 0.5rem 1rem;
+    background-color: var(--primary-color);
+    border: none;
+    border-radius: 5px;
+    color: var(--secondary-color);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}

@@ -1,28 +1,60 @@
 header {
-  background-color: $bg-color;
+  background-color: #022A22;
   padding: 1rem 2rem;
+}
+header .logo {
+  display: flex;
+  width: 100%;
+  padding-top: 30px;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 932px;
+}
+header nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header .pageRecette{
+  background-color: var(--bg-color);
+  padding: 1rem 2rem;
+}
+
+.header-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  width: 100%;
+}
 
-  .logo {
-    img {
-      height: 50px;
-    }
-  }
+.logo img {
+  height: 50px;
+}
 
-  .nav-right {
-    display: flex;
-    align-items: center;
-    gap: 1rem;
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
 
-    span {
-      font-size: 1.2rem;
-    }
+.nav-right span {
+  font-size: 14px;
+  text-transform: uppercase;
+}
 
-    img {
-      height: 40px;
-      border-radius: 50%;
-    }
-  }
+.nav-right img {
+  height: 40px;
+  border-radius: 50%;
+  margin-left: 20px;
+}
+
+.back-arrow {
+  margin: 1rem;
+}
+
+.back-arrow img {
+  height: 30px;
+  cursor: pointer;
 }

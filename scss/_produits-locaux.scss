@@ -1,57 +1,47 @@
 .produits-locaux {
-    display: flex;
-    justify-content: center;
-    max-width: $max-width;
-    margin: 0 auto;
-    flex-direction: column;
-    text-align: center;
-
-  h2 {
-    font-size: 48px;
-    font-family: $font-family-titles;
-  }
-
-  .underline {
-    margin-bottom: 80px;
-    margin-top: -40px;
-
-  }
-
-  .farmers-wrapper {
-    display: flex;
-    justify-content: center;
-    gap: 30px;
-    overflow: hidden;
-    width: 100%;
-
-
-    .farmers {
-      display: flex;
-      justify-content: center;
-      gap: 30px;
-      width: 100%;
-
-      .farmer {
-        width: 271.582px;
-        height: 535px;
-        overflow: hidden;
-        transition: width 0.3s ease;
-        border-radius: 10px;
-
-
-        img {
-          width: 100%;
-          height: 100%;
-          object-fit: cover;
-          transition: transform 0.3s ease;
-          border-radius: 10px;
-
-          &:hover {
-            transform: scale(1.2);
-
-          }
-        }
-      }
-    }
-  }
+  display: flex;
+  justify-content: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  flex-direction: column;
+  text-align: center;
+}
+.produits-locaux h2 {
+  font-size: 48px;
+  font-family: "Kensington", serif;
+}
+.produits-locaux .underline {
+  margin-bottom: 80px;
+  margin-top: -40px;
+}
+.produits-locaux .farmers-wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  overflow: hidden;
+  width: 100%;
+}
+.produits-locaux .farmers-wrapper .farmers {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  width: 100%;
+}
+.produits-locaux .farmers-wrapper .farmers .farmer {
+  width: 271.582px;
+  height: 535px;
+  overflow: hidden;
+  transition: width 0.3s ease;
+  border-radius: 10px;
+}
+.produits-locaux .farmers-wrapper .farmers .farmer img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  transition: transform 0.3s ease;
+  border-radius: 10px;
+}
+.produits-locaux .farmers-wrapper .farmers .farmer img:hover {
+  transform: scale(1.2);
 }

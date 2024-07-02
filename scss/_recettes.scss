@@ -1,47 +1,40 @@
 .recettes {
-    margin-top: 10px;
-  
-    h2 {
-      font-size: 48px;
-      font-family: $font-family-titles;
-      width: 100%; 
-      text-align: center;
-    }
-  
-    .underline {
-      margin: 0 auto;
-      margin-bottom: 120px;
-      margin-top: -40px;
-    }
-  
-    .recettes-slider {
-      display: flex;
-      gap: 30px;
-      max-width: $max-width;
-      margin: 0 auto;
-  
-      .recette {
-        flex: 0 0 320px;
-        height: 480px;
-        border-radius: 10px;
-  
-        img {
-          width: 100%;
-          height: 100%;
-          border-radius: 10px;
-        }
-      }
-    }
-
-  .slider-controls {
-    display: flex;
-    justify-content: right;
-    gap: 20px;
-    margin-right: 70px;
-    margin-top: 30px;
-
-    .arrow-left, .arrow-right {
-      cursor: pointer;
-    }
-  }
+  margin-top: 10px;
+}
+.recettes h2 {
+  font-size: 48px;
+  font-family: "Kensington", serif;
+  width: 100%;
+  text-align: center;
+}
+.recettes .underline {
+  margin: 0 auto;
+  margin-bottom: 120px;
+  margin-top: -40px;
+}
+.recettes .recettes-slider {
+  display: flex;
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.recettes .recettes-slider .recette {
+  flex: 0 0 320px;
+  height: 480px;
+  border-radius: 10px;
+}
+.recettes .recettes-slider .recette img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+.recettes .slider-controls {
+  display: flex;
+  justify-content: right;
+  gap: 20px;
+  margin-right: 70px;
+  margin-top: 30px;
+}
+.recettes .slider-controls .arrow-left, .recettes .slider-controls .arrow-right {
+  cursor: pointer;
 }
